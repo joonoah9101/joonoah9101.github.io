@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로보테크쇼</title>
+    <style>
+        ul{
+            list-style-type: none;
+        }
+        #me{
+            margin-left: 70px;
+        }
+        #me li{
+            margin-top: 5px;
+            display: inline;
+        }
+        #visit_info{
+            width: 750px;
+            padding-bottom: 5px;
+            border-bottom: solid 1px #cccccc;
+        }
+        #fee{
+            width: 400px;
+            margin: 20px;
+            padding: 10px;
+            border: solid 1px #bcd3be;
+            background-color: #f6fdf7;
+        }
+        #traffic li{
+            list-style-image: url("robo4.png");
+        }
+        .comment{
+            width: 700px;
+            border: solid 1px #bcd3be;
+            background-color: #f6fdf7;
+            margin: 20px;
+            padding: 10px;
+            line-height: 150%;
+        }
+        #place{
+            list-style: none;
+            padding: 0;
+            display: flex;
+        }
+        #place img{
+            width: 210px;
+            height: 150px;
+            border-radius: 10%;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+        .img_style{
+            text-align: center;
+        }
+
+        #menu {
+            display: inline-block; 
+            border: 3px solid #00FFCC; 
+            background-color: transparent; 
+            padding: 10px 16px;
+            margin: 20px auto;
+            text-align: center;
+        }
+        #menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        #menu li {
+            display: inline;
+            font-size: 17px;
+        }
+        #menu li a {
+            text-decoration: none;
+            color: black;
+            margin: 0 2px;
+            padding: 5px 8px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div style="text-align: center;">
+        <div id="menu">
+            <ul>
+                <li><a href="7_index.html">홈</a></li>
+                <li><a href="1_book_banner1.html">마진,패딩 기본값</a></li>
+                <li><a href="2_book_banner2.html">마진, 패딩 지정값</a></li>
+                <li><a href="3_inline_block.html">인라인 블록</a></li>
+                <li><a href="4_h_menu.html">메뉴 수평</a></li>
+                <li><a href="5_v_menu.html">메뉴 수직</a></li>
+                <li><a href="6_boxes.html">인라인 + 블록</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <ul id="me">
+        <li>박람회 소개 |</li>
+        <li>방문안내 |</li>
+        <li>관람안내 |</li>
+        <li>개인/단체 체험 |</li>
+        <li>고객센터 |</li>
+        <li>공지사항</li>
+    </ul>
+    <div>
+        <img src="main_image.jpg" width="800">
+    </div>
+
+    <h1 id="visit_info">+ 2025 로보테크쇼</h1>
+
+    <h2>1. 로보테크쇼 소개</h2>
+    <ul class = "comment">
+        <li>사람과 함께하는 지능형 로봇의 시대!</li>
+        <li>로봇 수요를 창출하는 전후방 산업 행사와의 동시개최로 시너지를 창출합니다!</li>
+        <li>로봇 산업의 비즈니스를 지원하는 첨단 로봇 비즈니스 플랫폼</li>
+        <li>로보테크쇼에서 기술로 연결되는 새로운 미래를 만나세요!</li> 
+    </ul>
+
+    <h2>2. 장소, 기간</h2>
+    <ul class="comment">
+        <li>장소 : 코엑스 B홀</li>
+        <li>기간 : 2025년 6월 11일(수) - 13일(금), 3일간</li>
+    </ul>
+
+    <h2>3. 볼거리</h2>
+    <ul id="place">
+        <li class="img_style">
+            <img src="robo1.jpg">
+            <p>417개사, 1520부스</p>
+        </li>
+        <li class="img_style">
+            <img src="robo2.jpg">
+            <p>신기술 및 업계동향 설명회, 강연</p>
+        </li>
+        <li class="img_style">
+            <img src="robo3.jpg">
+            <p>각종 로봇 체험</p>
+        </li>
+    </ul>
+
+    <h2>4. 교통안내</h2>
+    <ul id="traffic">
+        <li>버스 : 삼성역(그랜드인터컨파르나스호텔)정류장</li>
+        <li>지하철 : 삼성역 5, 6번 출구와 직접 연결된 통로로 진입</li>
+        <li>택시 : 서울특별시 강남구 봉은사로 524, 강남구 영동대로 513</li>
+    </ul>
+
+    <h2>5. 관람 유의사항</h2>
+    <p class="comment">• 사전등록을 하지 못한 경우, 현장에서 티켓 구매 후 입장 가능합니다.<br>
+    • 본 행사는 비즈니스 행사로 대학생 이상 입장 가능합니다. (고등학생 이하 입장 불가)<br>
+    • 사전등록은 1인 1등록을 원칙으로 합니다.<br>
+    • 바이어로 등록하신 분들은 입장 시 명함을 지참하여 주시기 바랍니다.</p>
+</body>
+</html>
